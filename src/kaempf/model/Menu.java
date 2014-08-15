@@ -2,42 +2,63 @@ package kaempf.model;
 
 public class Menu {
 
-	public static final int OP_GERAR_MATRIZ=1;
-	public static final int OP_SOMA_DIAGONAL_SECUNDARIA=2;
-	public static final int OP_MULTIPLICACAO_COLUNA=3;
-	public static final int OP_IMPRIMIR_NUMEROS_PRIMOS=4;
-	public static final int OP_ORDENAR_LINHAS_ORDEM_CRESCENTE=5;
-	public static final int OP_IMPRIMIR_MATRIZ=6;
-	public static final int OP_SAIR=7;	
+	public static final int OP_PACIENTES=1;
+	public static final int OP_MEDICAMENTOS=2;
+	public static final int OP_CONSULTAS=3;
+	public static final int OP_SAIR=4;	
 	
-	public static final int OP_COL1=1;
-	public static final int OP_COL2=2;
-	public static final int OP_COL3=3;
-	public static final int OP_COL4=4;
+	public static final int OP_PACIENTE_CADASTRAR=1;
+	public static final int OP_PACIENTE_BUSCAR=2;
+	public static final int OP_PACIENTE_ATUALIZAR=3;
+	public static final int OP_PACIENTE_EXCLUIR=4;
 	public static final int OP_VOLTAR=5;
+	
+	
 	
 	public static String getOpcoes()
 	{
-		return(	"\n--------------------------------------\n" +
-				"1- Gerar Matriz 4x4\n" +
-				"2- Calcular a soma da diagonal secundária\n" +
-				"3- Calcular a multiplicação de uma coluna\n" +
-				"4- Mostrar os números primos da matriz\n" +
-				"5- Ordenar cada linha da matriz em ordem crescente\n" +
-				"6- imprimir matriz\n" +
-				"7- Sair" +
-				"\n--------------------------------------");
-	}
-	
-	public static String getOpcoesDeColunas()
-	{
-		return(	"\n--------------------------------------\n" +
-				"1- Coluna 1\n" +
-				"2- Coluna 2\n" +
-				"3- Coluna 3\n" +
-				"4- Coluna 4\n" +
-				"5- voltar" +
+		return(	"\n-- BEM VINDO Dr. GUSTAVO KAEMPF --\n"+
+				"\n--------------------------------------\n" +
+				"1- PACIENTES\n" +
+				"2- MEDICAMENTOS\n" +
+				"3- CONSULTAS\n" +
+				"4- Sair" +
 				"\n--------------------------------------");
 	}
 		
+	public static String getOpcoesCrudPaciente()
+	{
+		return(	"\n-- CRUD PACIENTES --\n"+
+				"\n--------------------------------------\n" +
+				"1- Cadastrar paciente\n" +
+				"2- Buscar paciente\n" +
+				"3- Atualizar paciente\n" +
+				"4- Excluir paciente\n" +
+				"5- Voltar" +
+				"\n--------------------------------------");
+	}
+	
+	public static String getOpcoesCrudMedicamento()
+	{
+		return(	"\n--------------------------------------\n" +
+				"1- Cadastrar medicamento\n" +
+				"2- Buscar medicamento\n" +
+				"3- Atualizar medicamento\n" +
+				"4- Excluir medicamento\n" +
+				"5- Voltar" +
+				"\n--------------------------------------");
+	}
+	
+	public static String getOpcoesCrudConsulta()
+	{
+		return(	"\n--------------------------------------\n" +
+				"1- Criar nova consulta\n" +
+				"2- Mostrar consulta\n" +
+				"3- Atualizar consulta\n" +
+				"4- Excluir consulta\n" +
+				"5- Exibir Protuário\n" +
+				"6- Voltar" +
+				"\n--------------------------------------");
+	}
+	
 }
