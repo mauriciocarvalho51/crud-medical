@@ -13,6 +13,17 @@ public class Menu {
 	public static final int OP_PACIENTE_EXCLUIR=4;
 	public static final int OP_VOLTAR=5;
 	
+	public static final int OP_MEDICAMENTO_CADASTRAR=1;
+	public static final int OP_MEDICAMENTO_BUSCAR=2;
+	public static final int OP_MEDICAMENTO_ATUALIZAR=3;
+	public static final int OP_MEDICAMENTO_EXCLUIR=4;
+	
+	public static final int OP_CONSULTA_CADASTRAR=1;
+	public static final int OP_CONSULTA_BUSCAR=2;
+	public static final int OP_CONSULTA_ATUALIZAR=3;
+	public static final int OP_CONSULTA_EXCLUIR=4;
+	public static final int OP_CONSULTA_PRONTUARIO=5;
+	public static final int OP_VOLTARR=6;
 	
 	
 	public static String getOpcoes()
@@ -40,7 +51,8 @@ public class Menu {
 	
 	public static String getOpcoesCrudMedicamento()
 	{
-		return(	"\n--------------------------------------\n" +
+		return(	"\n-- CRUD MEDICAMENTOS --\n"+
+				"\n--------------------------------------\n" +
 				"1- Cadastrar medicamento\n" +
 				"2- Buscar medicamento\n" +
 				"3- Atualizar medicamento\n" +
@@ -51,7 +63,8 @@ public class Menu {
 	
 	public static String getOpcoesCrudConsulta()
 	{
-		return(	"\n--------------------------------------\n" +
+		return(	"\n-- CRUD CONSULTAS --\n"+
+				"\n--------------------------------------\n" +
 				"1- Criar nova consulta\n" +
 				"2- Mostrar consulta\n" +
 				"3- Atualizar consulta\n" +
