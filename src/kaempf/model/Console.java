@@ -2,6 +2,11 @@ package kaempf.model;
 
 import java.util.Scanner;
 
+/**
+*
+* mauricio.victor.carvalho@gmail.com
+*
+*/
 public class Console {
 	
 	public static String scanString(Object out)
