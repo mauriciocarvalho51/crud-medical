@@ -1,0 +1,17 @@
+em XAMPP ligado (apache & MySQL)
+
+navegador>>>>>
+
+localhost/phpmyadmin
+
+-------------------
+
+create database medical
+
+CREATE TABLE pacientes ( 
+id int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, 
+nome varchar(45) NULL, 
+idade int(02) NULL, 
+descricao varchar(45) NULL
+);
+

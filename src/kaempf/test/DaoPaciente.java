@@ -10,8 +10,8 @@ import kaempf.pojo.Paciente;
 
 public class DaoPaciente {
 
-	private final String URL = "jdbc:mysql://localhost/medical",  
-	         NOME = "root", SENHA = "senha";  
+	private final String URL = "jdbc:mysql//localhost:3306/medical",  
+	         NOME = "root", SENHA = "root";  
 	  
 	   private Connection con;  
 	   private Statement comando;  
